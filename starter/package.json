@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "prebuild": "rmdir .parcel-cache dist /s /q",
+    "default": "index.html"
+  },
+  "author": "Jesse Juwe",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "fractional": "^1.0.0",
+    "parcel": "^2.4.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0"
+  }
+}
