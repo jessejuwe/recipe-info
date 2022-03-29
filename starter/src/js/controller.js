@@ -129,6 +129,10 @@ const controlAddRecipe = async newRecipe => {
   }
 };
 
+const newFeature = () => {
+  console.log('Welcome to the Application');
+};
+
 const init = () => {
   // Subscribers (pattern design)
   recipeView.addHandlerRender(controlRecipes);
@@ -138,6 +142,7 @@ const init = () => {
   paginationView.addHandlerClick(controlPagination);
   bookmarksView.addHandlerRender(controlBookmarks);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
 };
 
 init();
