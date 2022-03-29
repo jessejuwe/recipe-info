@@ -1,7 +1,6 @@
 // A module (THE MODELS)
 
 import { API_URL, KEY, RES_PER_PAGE } from './config.js';
-import { async } from 'regenerator-runtime';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX } from './helpers.js';
 

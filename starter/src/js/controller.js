@@ -11,7 +11,6 @@ import { MODAL_CLOSE_SEC } from './config.js';
 
 import 'core-js/stable'; // Polyfilling everything else
 import 'regenerator-runtime/runtime'; // Polyfilling Async/Await
-import { async } from 'regenerator-runtime/runtime';
 
 // Hot module reloading (Parcel)
 // if (module.hot) {
