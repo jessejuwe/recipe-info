@@ -5,7 +5,6 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist",
-    "prebuild": "rmdir .parcel-cache dist /s /q",
     "default": "index.html"
   },
   "author": "Jesse Juwe",
